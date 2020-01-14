@@ -56,15 +56,16 @@ class LoginController extends Base
         }else{
             $role_ids = AuthRoleAdmin::where('admin_id',$admin->id)->column('role_id');
             if ($role_ids){
-                $permission_rule_ids = AuthPermission::where('role_id','in',$role_ids)
+                $permission_rules = AuthPermission::where('role_id','in',$role_ids)
                     ->field(['permission_rule_id'])
                     ->select();
-                foreach ($permission_rule_ids as $key=>$val){
-                    $name = AuthPermissionRule::where('id',$val['permission_rule_id'])->value('name');
-                    if ($name){
-                        $authRules[] = $name;
-                    }
+                $permission_rule_ids = [];
+                foreach ($permission_rules as $v) {
+                    $permission_rule_ids[] = $v['permission_rule_id'];
                 }
+                $permission_rule_ids = array_unique($permission_rule_ids);
+                $rules = AuthPermissionRule::whereIn('id',$permission_rule_ids)->field("name")->select();
+                $authRules = $rules ? array_column($rules->toArray(), "name") : [];
             }
         }
         $info['authRules'] = $authRules;

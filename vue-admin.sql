@@ -151,6 +151,8 @@ INSERT INTO `auth_permission_rule` VALUES (22, 21, 'admin/ad/save', '广告添�
 INSERT INTO `auth_permission_rule` VALUES (23, 21, 'admin/ad/edit', '广告编辑', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
 INSERT INTO `auth_permission_rule` VALUES (24, 21, 'admin/ad/delete', '广告删除', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
 INSERT INTO `auth_permission_rule` VALUES (25, 17, 'admin/ad.site/adlist', '广告位选择时的广告列表', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (26, 0, 'good', '商品管理', 1, '', 999, '2020-01-14 16:09:09', '2020-01-14 16:09:09');
+INSERT INTO `auth_permission_rule` VALUES (27, 7, 'admin/auth.role/authlist', '授权列表', 1, '', 999, '2020-01-14 16:13:02', '2020-01-14 16:13:02');
 
 -- ----------------------------
 -- Table structure for auth_role
