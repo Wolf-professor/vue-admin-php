@@ -126,31 +126,31 @@ CREATE TABLE `auth_permission_rule` (
 -- ----------------------------
 -- Records of auth_permission_rule
 -- ----------------------------
-INSERT INTO `auth_permission_rule` VALUES ('1', '0', 'user_manage', '用户管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('2', '1', 'user_manage/admin_manage', '管理组', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('3', '2', 'admin/auth_admin/index', '管理员管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('4', '3', 'admin/auth_admin/save', '添加管理员', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('5', '3', 'admin/auth_admin/edit', '编辑管理员', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('6', '3', 'admin/auth_admin/delete', '删除管理员', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('7', '2', 'admin/auth_role/index', '角色管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('8', '7', 'admin/auth_role/save', '添加角色', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('9', '7', 'admin/auth_role/edit', '编辑角色', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('10', '7', 'admin/auth_role/delete', '删除角色', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('11', '7', 'admin/auth_role/auth', '角色授权', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('12', '2', 'admin/auth_permission_rule/index', '权限管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('13', '12', 'admin/auth_permission_rule/save', '添加权限', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('14', '12', 'admin/auth_permission_rule/edit', '编辑权限', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('15', '12', 'admin/auth_permission_rule/delete', '删除权限', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('16', '0', 'ad_manage', '广告相关', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('17', '16', 'admin/ad_site/index', '广告位管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('18', '17', 'admin/ad_site/save', '广告位添加', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('19', '17', 'admin/ad_site/edit', '广告位编辑', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('20', '17', 'admin/ad_site/delete', '广告位删除', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('21', '16', 'admin/ad/index', '广告管理', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('22', '21', 'admin/ad/save', '广告添加', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('23', '21', 'admin/ad/edit', '广告编辑', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('24', '21', 'admin/ad/delete', '广告删除', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
-INSERT INTO `auth_permission_rule` VALUES ('25', '17', 'admin/ad_site/adlist', '广告位选择时的广告列表', '1', '', '999', '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (1, 0, 'user_manage', '用户管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (2, 1, 'user_manage/admin_manage', '管理组', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (3, 2, 'admin/auth.admin/index', '管理员管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (4, 3, 'admin/auth.admin/save', '添加管理员', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (5, 3, 'admin/auth.admin/edit', '编辑管理员', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (6, 3, 'admin/auth.admin/delete', '删除管理员', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (7, 2, 'admin/auth.role/index', '角色管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (8, 7, 'admin/auth.role/save', '添加角色', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (9, 7, 'admin/auth.role/edit', '编辑角色', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (10, 7, 'admin/auth.role/delete', '删除角色', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (11, 7, 'admin/auth.role/auth', '角色授权', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (12, 2, 'admin/auth.permission_rule/index', '权限管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (13, 12, 'admin/auth.permission_rule/save', '添加权限', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (14, 12, 'admin/auth.permission_rule/edit', '编辑权限', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (15, 12, 'admin/auth.permission_rule/delete', '删除权限', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (16, 0, 'ad_manage', '广告相关', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (17, 16, 'admin/ad.site/index', '广告位管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (18, 17, 'admin/ad.site/save', '广告位添加', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (19, 17, 'admin/ad.site/edit', '广告位编辑', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (20, 17, 'admin/ad.site/delete', '广告位删除', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (21, 16, 'admin/ad/index', '广告管理', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (22, 21, 'admin/ad/save', '广告添加', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (23, 21, 'admin/ad/edit', '广告编辑', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (24, 21, 'admin/ad/delete', '广告删除', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
+INSERT INTO `auth_permission_rule` VALUES (25, 17, 'admin/ad.site/adlist', '广告位选择时的广告列表', 1, '', 999, '2018-07-06 17:19:00', '2018-07-06 17:19:00');
 
 -- ----------------------------
 -- Table structure for auth_role
