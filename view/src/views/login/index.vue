@@ -59,7 +59,7 @@ export default {
         return {
             ruleForm: {
                 userName: "admin",
-                pwd: "",
+                pwd: "admin",
                 checked: true
             },
             rules: {

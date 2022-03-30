@@ -30,7 +30,7 @@ const err401 = r =>
 const err404 = r =>
     require.ensure([], () => r(require("../views/error/err404.vue")), "home");
 const login = r =>
-    require.ensure([], () => r(require("../views/home/index.vue")), "home");
+    require.ensure([], () => r(require("../views/login/index.vue")), "home");
 const main = r =>
     require.ensure([], () => r(require("../views/home/main.vue")), "home");
 
