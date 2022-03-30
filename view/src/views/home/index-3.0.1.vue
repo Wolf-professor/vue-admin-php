@@ -127,7 +127,7 @@ export default {
             }
         };
         return {
-            menuShow: false,
+            menuShow: true,
             levelList: null,
             passwordLoading: false,
             passwordFormVisible: false,
