@@ -1,8 +1,15 @@
+<!--
+ * @Author: guangquan
+ * @Date: 2022-03-30 11:03:55
+ * @LastEditTime: 2022-03-30 19:16:46
+ * @LastEditors: guangquan
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /code/vue-admin-php/README.md
+-->
 # 前言
 
-**项目前端地址：** <a href="https://github.com/lmxdawn/vue-admin-html" target="_blank">https://github.com/lmxdawn/vue-admin-html</a>
 
-**项目后端地址：** <a href="https://github.com/lmxdawn/vue-admin-php" target="_blank">https://github.com/lmxdawn/vue-admin-php</a>
+**项目地址：** <a href="https://github.com/Wolf-professor/vue-admin-php" target="_blank">https://github.com/Wolf-professor/vue-admin-php</a>
 
 # 欢迎 star
 

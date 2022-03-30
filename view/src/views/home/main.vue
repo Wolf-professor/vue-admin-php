@@ -6,7 +6,7 @@
                 <h1>vue-admin</h1>
                 <p>基于Vue.js 2.x系列 + Element UI + RBAC/AUTH权限 的后台管理系统</p>
                 <h2>前言</h2>
-                <p><strong>github项目地址：</strong><a href="https://github.com/Wolf-professor/vue-admin-php" target="_blank">https://github.com/lmxdawn/vue-admin-html</a></p>
+                <p><strong>github项目地址：</strong><a href="https://github.com/Wolf-professor/vue-admin-php" target="_blank">https://github.com/Wolf-professor/vue-admin-html</a></p>
                 <p>欢迎大家的star</p>
                 <h2>功能</h2>
                 <el-checkbox disabled checked>管理员登录</el-checkbox>
